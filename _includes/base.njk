@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="description" content="A plugin and toolset for for Eleventy (11ty) that allows you to utilise Vue.js as a templating language.">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#41b883">
+    <meta name="msapplication-TileColor" content="#333333">
+    <meta name="theme-color" content="#333333">
+    <meta property="og:title" content="Vueleventy (v11ty) – Vue.js + Eleventy">
+    <meta property="og:description" content="A plugin and toolset for for Eleventy (11ty) that allows you to utilise Vue.js as a templating language.">
+    <meta property="og:locale" content="en-GB">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.v11ty.dev/">
+    <meta property="og:image" content="https://www.v11ty.dev/og-image.png">
+    <meta property="og:image:alt" content="Vueleventy (v11ty) Logo">
+    <meta property="og:site_name" content="Vueleventy (v11ty)">
+    <meta name="twitter:site" product="@v11ty">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Vueleventy (v11ty)",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.v11ty.dev/favicon-32x32.png",
+            "width": 32,
+            "height": 32
+          }
+        },
+        "url": "https://www.v11ty.dev/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.v11ty.dev/og-image.png",
+          "width": 1440,
+          "height": 900
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.v11ty.dev/"
+        },
+        "description": "A plugin and toolset for for Eleventy (11ty) that allows you to utilise Vue.js as a templating language."
+      }
+    </script>
+    <style>
+      {% include "styles.css" %}
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      {{ content | safe }}
+    </div>
+  </body>
+</html>
