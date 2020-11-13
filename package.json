@@ -1,6 +1,6 @@
 {
   "name": "vueleventy-website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Source code for the Vueleventy (v11ty) website.",
   "main": "index.js",
   "scripts": {
