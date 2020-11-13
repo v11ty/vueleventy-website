@@ -1,6 +1,8 @@
 :root {
   --color-brand-primary: #ffffff;
   --color-brand-secondary: #333333;
+  --color-brand-tertiary: #41B883;
+  --color-brand-quaternary #35495E:
 }
 
 @font-face {
@@ -68,7 +70,7 @@ img {
 a {
   color: var(--color-brand-primary);
   text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.5);
+  text-decoration-color: var(--color-brand-tertiary);
 }
 
 a:hover,
